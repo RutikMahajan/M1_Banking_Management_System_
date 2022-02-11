@@ -2,9 +2,6 @@
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e645ec83082d41518de63594a89d41b3)](https://www.codacy.com/gh/pavankumar2266/M1_Banking_management_system_app/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pavankumar2266/M1_Banking_management_system_app&amp;utm_campaign=Badge_Grade)
 
-
-[readme.docx](https://github.com/pavankumar2266/M1_Banking_management_system_app/files/8050286/readme.docx)
-
 [![CI](https://github.com/pavankumar2266/M1_Banking_management_system_app/actions/workflows/main.yml/badge.svg)](https://github.com/pavankumar2266/M1_Banking_management_system_app/actions/workflows/main.yml)
 
 ![code quality](https://api.codiga.io/project/31168/score/svg)
