@@ -29,7 +29,7 @@ void gotoxy(int x, int y)
 }
 
 struct pass {
-	char username[50];
+	char username[10];
 	int date, month, year;
 	char pnumber[15];
 	char adharnum[20];
@@ -120,22 +120,22 @@ void account(void)
 	printf("\n\n!!!!!CREATE ACCOUNT!!!!!");
 
 	printf("\n\nFIRST NAME..");
-	scanf("%s", &u1.fname);
+	scanf("%20s", &u1.fname);
 
 	printf("\n\n\nLAST NAME..");
-	scanf("%s", &u1.lname);
+	scanf("%20s", &u1.lname);
 
 	printf("\n\nFATHER's NAME..");
-	scanf("%s", &u1.fathname);
+	scanf("%20s", &u1.fathname);
 
 	printf("\n\nMOTHER's NAME..");
-	scanf("%s", &u1.mothname);
+	scanf("%20s", &u1.mothname);
 
 	printf("\n\nADDRESS..");
-	scanf("%s", &u1.address);
+	scanf("%50s", &u1.address);
 
 	printf("\n\nACCOUNT TYPE");
-	scanf("%s", &u1.typeaccount);
+	scanf("%20s", &u1.typeaccount);
 
 	printf("\n\nDATE OF BIRTH..");
 	printf("\nDATE-");
@@ -146,13 +146,13 @@ void account(void)
 	scanf("%d", &u1.year);
 
 	printf("\n\nADHAR NUMBER");
-	scanf("%s", u1.adharnum);
+	scanf("%20s", u1.adharnum);
 
 	printf("\n\nPHONE NUMBER");
-	scanf("%s", u1.pnumber);
+	scanf("%15s", u1.pnumber);
 
 	printf("\n\nUSERNAME.. ");
-	scanf("%s", &u1.username);
+	scanf("%10s", &u1.username);
 
 	printf("\n\nPASSWORD..");
 
@@ -236,7 +236,7 @@ void login(void)
 
 	gotoxy(35, 12);
 	printf("USERNAME.. ");
-	scanf("%s", &username);
+	scanf("%10s", &username);
 
 	gotoxy(35, 14);
 	printf("PASSWORD..");
