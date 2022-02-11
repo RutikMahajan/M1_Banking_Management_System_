@@ -16,6 +16,7 @@ void account(void);
 void accountcreated(void);
 void afterlogin(void);
 void logout(void);
+void defaultCase(void);
 
 void gotoxy(int x, int y)
 {
@@ -93,7 +94,8 @@ int main()
 	case 3:
 		exit(0);
 		break;
-
+			
+	default: defaultCase();
 		getch();
 	}
 }
@@ -531,6 +533,9 @@ void checkbalance(char username2[])
 	display(username2);
 }
 
+void defaultCase(void){
+	printf("Please select a value from the given menu");
+}
 
 void logout(void)
 {
