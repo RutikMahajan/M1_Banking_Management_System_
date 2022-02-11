@@ -415,11 +415,11 @@ void transfermoney(void)
 
 	gotoxy(33, 11);
 	printf("FROM (your username).. ");
-	scanf("%s", &usernamet);
+	scanf("%20s", &usernamet);
 
 	gotoxy(33, 13);
 	printf(" TO (username of person)..");
-	scanf("%s", &usernamep);
+	scanf("%20s", &usernamep);
 
 	while (fread(&u1, sizeof(u1),
 				1, fp))
