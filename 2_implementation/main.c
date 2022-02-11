@@ -437,7 +437,7 @@ void transfermoney(void)
 	gotoxy(33, 16);
 
 	printf("ENTER THE AMOUNT TO BE TRANSFERED..");
-	scanf("%d", &m1.money1);
+	scanf("%ld", &m1.money1);
 
 	
 	fwrite(&m1, sizeof(m1),
@@ -514,7 +514,7 @@ void checkbalance(char username2[])
 			printf("%s", m1.userpersonfrom);
 
 			gotoxy(u, ++v);
-			printf("%d", m1.money1);
+			printf("%ld", m1.money1);
 		
 			summoney = summoney + m1.money1;
 		}
