@@ -35,6 +35,8 @@ modules C lectures
 
 ![code grade](https://api.codiga.io/project/31168/status/svg)
 
+[![Valgrind](https://github.com/pavankumar2266/M1_Banking_management_system_Util/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/pavankumar2266/M1_Banking_management_system_Util/actions/workflows/Valgrind.yml)
+
 [![Code Quality - Static Code - Cppcheck](https://github.com/pavankumar2266/M1_Banking_management_system_app/actions/workflows/cppcheck.yml/badge.svg?event=repository_dispatch)](https://github.com/pavankumar2266/M1_Banking_management_system_app/actions/workflows/cppcheck.yml)
 
 [![Contribution Check - Git Inspector](https://github.com/pavankumar2266/M1_Banking_management_system_app/actions/workflows/check.yml/badge.svg)](https://github.com/pavankumar2266/M1_Banking_management_system_app/actions/workflows/check.yml)
