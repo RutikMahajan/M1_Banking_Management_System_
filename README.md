@@ -31,6 +31,8 @@ modules C lectures
 
 [![Bulid Linux](https://github.com/pavankumar2266/M1_Banking_management_system_Util/actions/workflows/Bulid%20Linux.yml/badge.svg)](https://github.com/pavankumar2266/M1_Banking_management_system_Util/actions/workflows/Bulid%20Linux.yml)
 
+[![Build Windows](https://github.com/pavankumar2266/M1_Banking_management_system_Util/actions/workflows/Build%20windows.yml/badge.svg)](https://github.com/pavankumar2266/M1_Banking_management_system_Util/actions/workflows/Build%20windows.yml)
+
 [![CI](https://github.com/pavankumar2266/M1_Banking_management_system_app/actions/workflows/main.yml/badge.svg)](https://github.com/pavankumar2266/M1_Banking_management_system_app/actions/workflows/main.yml)
 
 [![Unit testing](https://github.com/pavankumar2266/M1_Banking_management_system_Util/actions/workflows/Unit%20testing.yml/badge.svg)](https://github.com/pavankumar2266/M1_Banking_management_system_Util/actions/workflows/Unit%20testing.yml)
