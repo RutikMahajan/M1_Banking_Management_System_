@@ -31,6 +31,8 @@ modules C lectures
 
 [![CI](https://github.com/pavankumar2266/M1_Banking_management_system_app/actions/workflows/main.yml/badge.svg)](https://github.com/pavankumar2266/M1_Banking_management_system_app/actions/workflows/main.yml)
 
+[![Unit testing](https://github.com/pavankumar2266/M1_Banking_management_system_Util/actions/workflows/Unit%20testing.yml/badge.svg)](https://github.com/pavankumar2266/M1_Banking_management_system_Util/actions/workflows/Unit%20testing.yml)
+
 ![code quality](https://api.codiga.io/project/31168/score/svg)
 
 ![code grade](https://api.codiga.io/project/31168/status/svg)
