@@ -11,3 +11,10 @@
 |---------| ------------| ----------| ------------| ------------| ------------|
 | L_01|	Logout should be successful and redirect to login page again|	User integer input|	Redirection to Login page|	Page got redirected to Login page|	Scenario based|
 
+
+## Best Practices
+
+ - [x] Checked all the possibilities of output
+ - [x] Mentioned all the inputs for better understanding
+ - [x] Presented in tabular form for easy understanding
+ - [x] Both High level and low level Test plans are shown
