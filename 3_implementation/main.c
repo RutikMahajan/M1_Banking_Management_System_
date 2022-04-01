@@ -17,14 +17,6 @@ void afterlogin(void);
 void logout(void);
 void defaultCase(void);
 
-void gotoxy(int x, int y)
-{
-	COORD c;
-	c.X = x;
-	c.Y = y;
-
-	SetConsoleCursorPosition(
-		GetStdHandle(STD_OUTPUT_HANDLE), c);
 }
 
 struct pass {
@@ -77,25 +69,6 @@ int main()
 	printf("\n\nENTER YOUR CHOICE..");
 
 	scanf("%d", &choice);
-
-	switch (choice) {
-	case 1:
-		system("cls");
-		printf("\n\n USERNAME 50 CHARACTERS MAX!!");
-		printf("\n\n PASSWORD 50 CHARACTERS MAX!!");
-		account();
-		break;
-
-	case 2:
-		login();
-		break;
-
-	case 3:
-		exit(0);
-		break;
-			
-	default: defaultCase();
-		getch();
 	}
 }
 
@@ -155,16 +128,6 @@ void account(void)
 
 	printf("\n\nPASSWORD..");
 
-	
-	for (i = 0; i < 50; i++) {
-		ch = getch();
-		if (ch != 13) {
-			password[i] = ch;
-			ch = '*';
-			printf("%c", ch);
-		}
-		else
-			break;
 	}
 
 
